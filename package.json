@@ -1,0 +1,16 @@
+{
+  "name": "discord-summary",
+  "version": "0.1.0",
+  "description": "Read-only Discord guild reader for agent summaries (user token, raw REST)",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "guild": "node src/index.js guild",
+    "channels": "node src/index.js channels"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
